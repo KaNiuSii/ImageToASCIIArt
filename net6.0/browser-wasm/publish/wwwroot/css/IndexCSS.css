@@ -1,0 +1,92 @@
+﻿/* styles.css */
+body {
+    background-color: #545B77;
+}
+/* Style for buttons */
+.btn {
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Style for the textarea */
+.form-control {
+    font-size: 5px;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Additional styles as needed */
+.top-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #374259;
+    padding: 10px;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-bar {
+    display: flex;
+    align-items :center;
+    justify-content : left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #374259;
+}
+
+.left-elements {
+    position : relative;
+    margin-left: 10px;
+    color : white;
+}
+
+.center-elements {
+    position: absolute;
+    align-items : center;
+    align-content : center;
+    right : 45%;
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.rounded-square {
+    display : flex;
+    background-color: #5C8984;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content : center;
+    align-items : center;
+}
+.top-bar-text {
+    color: white;
+}
+
+.bottom-text {
+    position : relative;
+    left : 0;
+}
